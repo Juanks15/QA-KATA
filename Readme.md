@@ -186,3 +186,22 @@ La carpeta `documentation` contiene:
 # Conclusión
 
 El proyecto implementa automatización funcional UI/API siguiendo buenas prácticas QA y arquitectura mantenible.
+## Ejecutar todos los tests
+
+npx playwright test
+
+## Ejecutar tests UI
+
+npx playwright test JavaScript/ui
+
+## Ejecutar tests API
+
+npx playwright test JavaScript/api
+
+## Ejecutar modo visual
+
+npx playwright test --headed
+
+## Ver reporte
+
+npx playwright show-report
